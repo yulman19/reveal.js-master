@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>La fabrique à idées.</title>
+
+		<!-- <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+ -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>La fabrique à idées</h1>
+					<h3>Apprentissage, partage, responsabilité</h3>
+					<!-- <p>
+						<small>Par <a href="http://www.simonbastien.ca">Simon Bastien.</a></small>
+					</p> -->
+				</section>
+
+				<!-- <section>
+					<h2>Simon Bastien</h2>
+					<p>
+						Enseignant au collégial et au technique. </p><p>Bénévole à l'aide aux devoirs à Verdun depuis 6 ans
+						<ul>
+						<li>Photographie</li>
+						<li>Alimentation</li>
+						<li>Électronique</li>
+						<li>Environnement</li>
+						</ul>
+					</p>
+				</section> -->
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section><h2>Pourquoi Verdun</h2>
+					<p>
+						<h4><a href="http://quebec.compareschoolrankings.org/secondary/%C3%89cole_Monseigneur-Richard/Montr%C3%A9al/Report_Card.aspx">Rang de Msg. Richard selon l'institut Fraser</a><br>
+						<a href="http://quebec.compareschoolrankings.org/secondary/Beurling_Academy/Verdun/Report_Card.aspx">Rang de Beurling selon l'institut Fraser</a><br>
+						<a href="http://www.csmb.qc.ca/~/media/Files/PDF/parent-eleves/territoire-etab/territoire-monseigneur-richard.ashx">Carte de territoire de L'école Monseigneur Richard</a><br>
+						<a href="http://www.lbpsb.qc.ca/territory/CSLBP.pdf">Carte du territoire de LBPSB</a></h4>
+					</p><a href="https://infogeo.education.gouv.qc.ca/public/Atlas_Defavorisation/">
+					<img height="400" align="center" data-src="https://lh3.googleusercontent.com/fHLjD-DNtfkjuUyZgMwPnlE2Nom8QF41R78N_od78zpP62u80lm6I9XPX_8TZKIGLjlJU0ackwNz18J84rub8l5Hk2c1SwkrmFgHtx5fceL4d28jXuPnieUOZFwDKgzeUsfaf8Bhtrp-caHbt--U6WsqNHaxGzEMhPuSDdUzLnza7qA2ilno8uA2njZaOasO8jCyNJkhNzZAvLDfYlHUf7zBBG_NfUQ4GKK0wLn98FwG9tCmwlBhcNnY1uZ2q42uczPcyEAoBeiTDs2zQ3-RFIUvEU-b6SGGFzXRoIIDA-5bbnWRlRfbFXttzLy84LXwWG9AhNZWmhPMM0Nj2wgeESAX2TSVT_tT2Z40k2W9khI8_waoTopU36IaW6p3djpwAUR5lF4p7xBRgdPUUns8SNE8bFJUAo2mAOyXC_B_5qPPvlDWPrjP9b7Nk-0ALbZ26nXubtCixdvCuQI7S_WF-9ohOsDiwQV-aWEYPKLsolCpxgtKxSGYtudWfjlXpKUdLi9jcP0d5atCu4yZg5nR2i6fI2gXpgttDRIYZToHhSlQx3_sb8LWcKJKaEYdexjn-_1Fw3nTqiLwIY7sM80hnmTXtKuNgc1rxayJkg6I=w1265-h1432-no"></a></section>	
+			
+					<section>
+						<h2>Organismes locaux pour les jeunes</h2>
+				<img height="400" align="center" data-src="https://lh3.googleusercontent.com/5inMzQepaeTxL2e7B0GQnfWa6ul-fzIqjk7tQPgJ8hK5jfvOHfT6Jonm68YucAZnS_u78R9r0atK_wogaK04QsDy8ZuhuxwGRSNCwJmMFk4DgjGL0UABUOwijqdVQ6xerZERHBlhblNxON9c8AP3PyrDMe-s1uN9E_hZRoEfpImTRtmZuty4T9CdyfROkl5jAQQtdunc4y6hmR6E1fKygJePEP20ojOrQ1PwU7hFnAgBDhaMSmq0R2TrhA39UtRYA9ILc1AalKhd8R-BBeNmx77NKSR12xSvbW0uHReNg4FBH_anFJ3Qi-xzdh_fcfVoj-36c2ZD4_y7bytcVTN0IQi1Arpops9he4tuOnMh__hK489d44iQkOP0GfEjpeHEJ9-mmKvAdTu5FcRNI0OF4oI3NKwwk4xn88L1ZPCC33IJiItFPKK4D8w06OguXcOUbMtgJJK8GUGWw4vHJIYhtTk6jknUJ-njs1nKF6GvPN95p9iXvgfQoom2rFJ9Lz9x3VaTJyyJ5M1KhCoFv3HaSIjSIPp4aJy0Zy_TRqYgHwQ1TQxeuv2Q-Z_oXzqiZ1o_9P9qTp0lk9AOA8pg8Z1kXdD4P3YlR_0USGdSZ5sY=w892-h1138-no">	
+	
+				</section>
+					
+					<section>
+						<h2>Passeport pour ma réussite - Pathways to Education</h2>
+						<ul>
+						<li>Aide aux devoirs</li>
+						<li>Support de conseillers ressources</li>
+						<li>Ateliers mentorat</li>
+						<li>Orientation</li>
+						</ul>
+						<br>
+						<a href="www.passeportpourmareussite.ca/">Passeport pour ma réussite</a>
+					</section>
+					<section>
+					<a href="https://www.passeportpourmareussite.ca/montreal-verdun">
+					<img height="400" align="center" data-src="https://lh3.google.com/u/0/d/1uxVOE-NCDiXlTC6a_iHUB1xx4lRlrcAl=w1955-h2043-iv1"></a>
+					</section>
+					
+					<section>
+						<h2>Toujours Ensemble</h2>
+						<ul>
+						<li>Fondé en 1979</li><li>Aide aux devoirs</li>
+						<li>Camps de jour, relâche/été</li>
+						<li>Dîners scolaires</li>
+						<li>Sports et loisirs</li>
+						</ul>
+						<br>
+						<a href="www.toujoursensemble.org">Toujours Ensemble</a>
+					</section>
+					<section>
+						<h2>Dawson Community Centre</h2>
+						<ul>
+						<li>Fondé en 1959</li>
+						<li>Parents/Enfants</li>
+						<li>Passeport pour ma réussite</li>
+						<li>Banque alimentaire</li>
+						<li>Un plant de tomates à la fois</li></ul>
+					<br><a href="http://dccverdun.ca/">Dawson's boys and girls club</a>
+					</section>
+					<section>
+						<h2>L'ancre des jeunes</h2>
+						<ul>
+						<li>Fondé en 1991</li>
+						<li>Soutien aux décrocheurs 13-16</li>
+						<li>Transition vers le secondaire</li>
+						<li>Formation a distance - formation aux adultes.</li>
+						</ul>
+						<br>
+						<a href="http://www.ancredesjeunes.org">L'ancre des jeunes</a>
+					</section>
+					<section>
+						<h2>Maison des jeunes de Verdun - </h2>
+						<h2>Point de mire</h2>
+						<ul>
+						<li>Production de mouches pour la pêche</li>
+						<li>Sorties et activités centrées sur la pêche</li>
+						<li>Repas pour les jeunes</li>
+						</ul>
+						<br>
+						<a href="http://www.mdjpointdemire.com"> Maison des Jeunes - Point de mire
+						</a>
+					</section>
+						
+					
+					<!-- 	<section>
+						<h2>Grandir sans frontière</h2>
+						<ul>
+						<li>Réparation / récupération informatique</li>
+						<li>Envoi d'ordinateurs à l'étranger</li>
+						<li>Formation</li>
+						<li>Camps de jour</li></ul>
+						<br><a href="
+http://grandirsansfrontieres.org/">Grandir sans frontières</a>
+					</section> -->
+				</section>
+				</section>
+				<section>
+					<h2>Objectifs d'un atelier</h2>
+					
+						<h3>Favoriser la débrouillardise et la création</h3> 
+						Orienter les jeunes vers les outils et les ressources pour créer, fabriquer, réparer.
+						<br>
+						<br>
+						<ul>
+						<li>
+						Alimentation / environnement / vie civique
+						</li>
+						<li>
+						Multimédia
+						</li>
+						<li>
+						Réparation - Création
+						</li>
+						</ul>
+					
+				</section><section>
+						<h3>Exemples d'ateliers</h3>
+					
+					<section>
+						<br><h2>FabLab du PEC</h2>
+						<ul>
+						<li>Pavillon d'éducation communautaire Hochelaga-Maisonneuve</li>
+						<li>Découpe Laser</li>
+						<li>Imprimante 3D</li>
+						<li>Mini-fraiseuse</li>
+						<li>Brodeuse</li>
+						</ul>
+						<a href="#" class="navigate-down">
+							<img height="238" data-src="http://www.fablab.koumbit.org/wordpress/wp-content/uploads/2016/03/panorama-fab-lab.jpg" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<br><h2>Le Square B.N. @ BANQ</h2>
+						<ul>
+						<li>Production audio-vidéo</li>
+						<li>Réalité Virtuelle</li>
+						<li>Jeux vidéo</li>
+						<li>Imprimante 3D</li>
+						</ul><br><a href="#" class="navigate-down">
+							<img height="238" data-src="http://square.banq.qc.ca/wp-content/themes/banq-medialab-child/images/interface/header/lg_LeSquare_accueil.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<br><h2>Foulab</h2>
+						<p>Payant, St-Henri</p>
+						<ul>
+						<li>Électronique</li>
+						<li>Informatique</li>
+						<li>Radio Amateur</li>
+						
+						</ul><br><a href="#/2">
+							<img height="238" data-src="https://foulab.org/data/9f0f8ae5513e17c46e2c9c62ef34328221c1c972.jpg">
+						</a>
+					</section>
+					<section>
+						<br><h2>Helios Makerspace</h2>
+						<p>Payant. St-Henri</p>
+						<ul>
+						<li>Atelier de travail</li>
+						<li>Déoupe laser</li>
+						<li>Imprimantes 3D</li>
+						</ul><br><a href="#/2">
+							<img height="238" data-src="http://heliosmakerspace.ca/assets/helios_layout-current.png" alt="Up arrow" >
+						</a>
+					</section>
+						
+					<section>
+						<br><h2>La Remise</h2><p>Villeray - Prêt d'outils</p>
+						<ul>
+						<li>Auto</li>
+						<li>Maison</li>
+						<li>Outils électriques</li>
+					</section>
+				</section>
+				<section>
+					<section>
+					<h2>Besoins</h2>
+					<ul>
+					<li>Local bien positionné</li>
+					<li>Outils</li>
+					<li>Bénévoles</li>
+					<li>Intervenants</li>
+					</ul>	</section>			
+					<section>
+					<h2>Local</h2>
+					<ul>
+					<li>Local bien positionné</li>
+					<li>Outils</li>
+					<li>Bénévoles</li>
+					<li>Intervenants</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Outils</h2>
+					<ul>
+					<li>Local bien positionné</li>
+					<li>Outils</li>
+					<li>Bénévoles</li>
+					<li>Intervenants</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Intervenants</h2>
+					<ul>
+					<li>Local bien positionné</li>
+					<li>Outils</li>
+					<li>Bénévoles</li>
+					<li>Intervenants</li>
+					</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Besoin de collaborateurs!</h2>
+					
+				</section>
+<section>
+					<h2>simon@fabriqueidees.qc.ca</h2>
+					
+				</section>
+			<!-- 	<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+					</section>
+				</section>
+
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+				</section>
+
+			<section data-background="#dddddd">
+						<h2>Slide Backgrounds</h2>
+						<p>
+							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+						</p>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
+						<h2>Image Backgrounds</h2>
+						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
+						<h2>Tiled Backgrounds</h2>
+						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					</section>
+					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Video Backgrounds</h2>
+							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+						</div>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... and GIFs!</h2>
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+					</p>
+					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				</section>
+
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						You can override background transitions per-slide.
+					</p>
+					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+				</section>
+
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+				</section>
+
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
+					<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
+
+				<section>
+					<h2>Global State</h2>
+					<p>
+						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+						will be added as a class to the document element when the slide is open. This lets you
+						apply broader style changes, like switching the page background.
+					</p>
+				</section>
+
+				<section data-state="customevent">
+					<h2>State Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+					</p>
+				</section>
+
+				<section>
+					<h2>Much more</h2>
+					<ul>
+						<li>Right-to-left support</li>
+						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="https://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section> -->
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
